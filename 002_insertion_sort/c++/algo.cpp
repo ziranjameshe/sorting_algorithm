@@ -1,15 +1,20 @@
-// Selection Sort
+// Insertion Sort
 
 #include <iostream>
 #include <stdio.h>
 #include <../../utility/utility.cpp>
 
+/*
+    1. Time  Complexity - The time  complexity of Insertion Sort is O(N^2) because there are two nested for loops
+    2. Space Complexity - The space complexity of Insertion Sort is O(0)   because there is no extra variable being used during sorting
+*/
+
+
 void insertion_sort(int array_to_sort[], int array_size) {
 
-    int j;
     for (int i = 1; i < array_size; i++) {
 
-        for (j = i; j > 0; j--) {
+        for (int j = i; j > 0; j--) {
 
             if (array_to_sort[j - 1] > array_to_sort[j]) {
 
