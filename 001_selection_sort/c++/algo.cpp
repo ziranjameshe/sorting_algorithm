@@ -2,7 +2,7 @@
 
 #include <iostream>
 #include <stdio.h>
-#include "../../utility/utility.h"
+#include <../../utility/utility.cpp>
 
 /*
 Time Complexity

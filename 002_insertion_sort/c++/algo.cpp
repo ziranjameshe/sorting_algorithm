@@ -2,7 +2,7 @@
 
 #include <iostream>
 #include <stdio.h>
-#include "../../utility/utility.h"
+#include <../../utility/utility.cpp>
 
 void insertion_sort(int array_to_sort[], int array_size) {
 
