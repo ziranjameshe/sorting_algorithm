@@ -1,9 +1,10 @@
+#include <iostream>
 
-void fill_arrays_with_random_values(int array_a[], int array_b[], int array_size) {
+void fill_arrays_with_random_values(int array_a[], int array_b[], int array_size, int seed = 100) {
 
     int random_value;
     for(int i = 0; i < array_size; i++) {
-        random_value = std::rand() % 100;
+        random_value = std::rand() % seed;
         array_a[i] = random_value;
         array_b[i] = random_value;
     }
