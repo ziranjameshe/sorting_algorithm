@@ -5,7 +5,8 @@
 #include <../../utility/utility.cpp>
 
 /*
-Time Complexity
+    1. Time  Complexity  - The time complexity of Selection Sort is O(N^2) because there are two nested for loops
+    2. Space Complexity - The space complexity of Selection Sort is O(1)   because there is only one extra memory space is used for storing a temporary variables while swapping two values in the array.
 */
 
 void selection_sort(int array_to_sort[], int array_size) {
