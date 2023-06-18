@@ -5,8 +5,10 @@
 #include "../../utility/utility.cpp"
 
 /*
-    1. Time  Complexity - The time  complexity of Quick Sort is O(N^2) because there are two nested for loops
-    2. Space Complexity - The space complexity of Quick Sort is O(0)   because there is no extra variable being used during sorting
+    1. Time  Complexity - The time  complexity of Quick Sort is:
+                                                                O(N * log(N)) for average case and best case
+                                                                O(N^2)        for worst case
+    2. Space Complexity - The space complexity of Quick Sort is O(1) because there is no extra variable being used during sorting
 */
 
 int partition(int array_to_sort[], int low, int high) {
