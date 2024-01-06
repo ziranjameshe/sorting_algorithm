@@ -1,5 +1,5 @@
 out: algo.cpp
-	g++ -std=c++11 -o out algo.cpp
+	g++ -std=c++20 -O3 algo.cpp
 
 clean:
 	rm -f out
