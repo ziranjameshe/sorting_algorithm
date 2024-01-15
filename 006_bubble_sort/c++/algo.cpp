@@ -8,7 +8,7 @@
 #include "../../utility/utility.hpp"
 
 /*
-1. Time  Complexity - The time  complexity of Bubble Sort is: O(N * log(N))
+1. Time  Complexity - The time  complexity of Bubble Sort is: O(N^2)
 2. Space Complexity - The space complexity of Bubble Sort is O(1)
 */
 
